@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <nav className="bg-yellow-50 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">WELCOME TO MY PAGE</h1>
+        <h1 className="text-2xl font-bold">Hi I'm Noela Deane</h1>
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex space-x-6">

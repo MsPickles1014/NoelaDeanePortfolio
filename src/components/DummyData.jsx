@@ -4,7 +4,11 @@
 function DummyData() {
     return (
       <div className="bg-gray-500
-      ">dummyDat</div>
+      "><h1 
+      >
+      Let's Work Together To Create Wonders
+  </h1>
+  </div>
     )
   }
   
