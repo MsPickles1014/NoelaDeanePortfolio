@@ -5,12 +5,14 @@ import './App.css'
 import { Outlet } from "react-router-dom";
 import NavBar from './components/NavBar';
 import './index.css';
+import HeroSection from './pages/HeroSection';
 
 function App() {
   return (
     <div >
       <NavBar />
       <DummyData />
+      <HeroSection/>
       <Outlet />
       {/* <Footer/> */}
     </div>

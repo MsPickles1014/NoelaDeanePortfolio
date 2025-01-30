@@ -12,9 +12,13 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-yellow-50 p-4">
+    <nav className="bg-blue-600 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Hi I'm Noela Deane</h1>
+        <h1 className="text-3xl font-bold"> I'm Noela. 
+        <ul>
+        A Designer.
+            </ul>
+        </h1>
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex space-x-6">
