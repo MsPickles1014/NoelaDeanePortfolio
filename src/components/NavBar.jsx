@@ -6,7 +6,7 @@ const NavBar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Projects", path: "/projects" },
+    { name: "ProjectsPage", path: "/projectsPage" },
     { name: "Contact", path: "/contact" },
     { name: "Resume", path: "Resume" },
   ];
@@ -14,9 +14,9 @@ const NavBar = () => {
   return (
     <nav className="bg-blue-600 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold"> I'm Noela. 
+        <h1 className="text-3xl font-bold"> Hello 
         <ul>
-        A Designer.
+        I am Noela
             </ul>
         </h1>
 
