@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "portfolio",
         element: <Portfolio />,
+      },
+      {
+        path: "contact",
+        element: <Contact/>
       },
     ],
   },

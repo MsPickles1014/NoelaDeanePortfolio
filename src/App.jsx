@@ -6,6 +6,7 @@ import DummyData from "./components/DummyData";
 import Resume from './pages/Resume';
 
 import "./index.css";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<HeroSection />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="contact" element={<Contact/>}/>
 
       </Routes>
       <DummyData />
