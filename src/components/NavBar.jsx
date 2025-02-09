@@ -9,7 +9,7 @@ const NavBar = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Portfolio", path: "/portfolio" },
-    { name: "Contact", path: "/contact" },
+    { name: "Contact", path: "mailto:your-noela.deane@cune.org" },
     { name: "Resume", path: "/resume" },  // :white_check_mark: Fixed Path
   ];
 

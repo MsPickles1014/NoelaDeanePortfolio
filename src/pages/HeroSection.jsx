@@ -19,7 +19,7 @@ function HeroSection() {
             My Portfolio
           </Link>
           <Link
-            to="/contact"
+            to="mailto:your-noela.deane@cune.org"
             className="px-6 py-3 border border-gray-300 hover:bg-gray-800 transition rounded-full text-lg font-medium"
           >
             Contact Me

@@ -6,7 +6,7 @@ function DummyData() {
       <div className="bg-gray-500
       "><h1 className="text-white text-center text-2xl" 
       >
-      Let's Work Together To Create Wonders
+      Where Innovation Meets Strategy
   </h1>
   </div>
     )

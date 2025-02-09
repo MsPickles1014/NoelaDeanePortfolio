@@ -3,6 +3,7 @@ import image2 from '../assets/employeeTrackerDB-SQL.png';
 import image3 from '../assets/ReadMeImage.png';
 import image4 from '../assets/vehicleBuilderImage.webp';
 import image5 from '../assets/Weather-Forecast-API-Image.jpeg';
+import image6 from '../assets/digital-marketing-meeting.jpg';
 
 const projects = [
     {
@@ -39,6 +40,13 @@ const projects = [
         description: "Weather Tracker is a dynamic web application that provides real-time weather information for user-specified locations. Using the OpenWeather API, the app displays current conditions, a 5-day forecast, and key metrics like temperature, humidity, and wind speed. Built with JavaScript, HTML, and CSS, the project showcases skills in API integration, responsive design, and user interaction. Its intuitive interface makes it a valuable tool for planning and staying informed about weather conditions.",
         image: image5, // Imported image
         github: "https://github.com/MsPickles1014/Weather-Dashboard",
+    },
+    {
+        id: 6,
+        title: "Horiseon",
+        description: "Horiseon is an Search Engine Optimization (SEO) platform specifically designed to boost business’s online visibility and organic search rankings through a variety of optimization strategies. The website provides a full range of services including keyword research, on-page optimization and technical audits.",
+        image: image6, // Imported image
+        github: "https://github.com/MsPickles1014/Horiseon-module1-challange",
     },
 ];
 
