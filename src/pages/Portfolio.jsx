@@ -4,6 +4,7 @@ import image3 from '../assets/ReadMeImage.png';
 import image4 from '../assets/vehicleBuilderImage.webp';
 import image5 from '../assets/Weather-Forecast-API-Image.jpeg';
 import image6 from '../assets/digital-marketing-meeting.jpg';
+import image7 from '../assets/GlimmerPic.png';
 
 const projects = [
     {
@@ -47,6 +48,13 @@ const projects = [
         description: "Horiseon is an Search Engine Optimization (SEO) platform specifically designed to boost business’s online visibility and organic search rankings through a variety of optimization strategies. The website provides a full range of services including keyword research, on-page optimization and technical audits.",
         image: image6, // Imported image
         github: "https://github.com/MsPickles1014/Horiseon-module1-challange",
+    },
+    {
+        id: 7,
+        title: "Glimmer In Time",
+        description: "GlimmerApp is a full-stack web application that allows users to discover historical events that happened on a specific month and day using data from Wikipedia's On This Day API.",
+        image: image7, // Imported image
+        github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
     },
 ];
 

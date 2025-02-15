@@ -1,11 +1,19 @@
 import { Link } from "react-router-dom";
+import portraitImage from '../assets/nDeaneProfilePic.jpg';
+
 
 function HeroSection() {
   return (
     <section className="relative bg-gray-900 text-white min-h-screen flex items-center">
-      {/* Background Overlay */}
+      {/* Background Overlay */}  
       <div className="absolute inset-0 bg-black opacity-50"></div>
-
+      <div className="w-1/3 flex justify-end">
+                          <img
+                              src={portraitImage}
+                              alt="Noela Deane Portrait"
+                              className="rounded-full w-75h-60 object-cover border-4 border-blue-500 transition-transform transform hover:scale-105"
+                          />
+                      </div>
       <div className="container mx-auto px-6 lg:px-12 relative z-10 text-center">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight animate-fade-in">
           Elevate Your Online Presence
