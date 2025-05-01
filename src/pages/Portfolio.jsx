@@ -5,28 +5,32 @@ import image4 from '../assets/vehicleBuilderImage.webp';
 import image5 from '../assets/Weather-Forecast-API-Image.jpeg';
 import image6 from '../assets/digital-marketing-meeting.jpg';
 import image7 from '../assets/GlimmerPic.png';
-
+import image8 from '../assets/WordleImage.png';
+import image9 from '../assets/GridVentureImage.png';
 const projects = [
     {
         id: 1,
         title: "Alphabet Learning App",
-        description: "The Alphabet Learning App is an interactive, educational tool designed to help users learn the alphabet. The app allows users to input letters, dynamically generates flashcards with images and text, and saves progress using local storage. It also includes background music, a modal interface, and a Play-Again feature for restarting the learning session.",
+        description: "The Alphabet Learning App is an interactive, educational tool designed to help users learn the alphabet. Users are able to input letters, dynamically generates flashcards with images and text.",
         image: image1, 
         github: "https://mspickles1014.github.io/CoolCademy/",
+        webpage: "",
     },    
     {
         id: 2,
         title: "Employee Tracker",
-        description: "Employee Tracker is a command-line application built to streamline the management of a company's employee database. Developed with Node.js, Inquirer.js, and MySQL, this tool enables users to efficiently add, view, update, and organize employee records, roles, and departments. The project highlights advanced backend development skills, including expertise in database management, SQL queries, and modular code structure. It provides a practical and effective solution for simplifying HR and administrative processes.",
+        description: "Employee Tracker is a command-line application built to streamline the management of a company's employee database. It enables users to efficiently add, view, update, and organize employee records, roles, and departments.",
         image: image2, // Imported image
         github: "https://github.com/MsPickles1014/Challenge-10",
+        webpage: "",
     },
     {
         id: 3,
         title: "Professional README Generator",
-        description: "The README Generator is a powerful Command Line Interface (CLI) tool.designed to streamline the creation of professional and structured README.md files for your projects. By providing simple prompts, developers can create a polished README that includes licensing, installation instructions, usage guidelines, and more. This easy-to-use tool creates a README file by using a command-line application to generate one; enabling the project creator to devote more time to working on the project",
+        description: "The README Generator is a powerful Command Line Interface (CLI) tool.designed to streamline the creation of professional and structured README.md files for projects. By providing simple prompts, developers can create a polished README.",
         image: image3, // Imported image
         github: "https://github.com/MsPickles1014/challenge-5",
+        webpage: "",
     },
     {
         id: 4,
@@ -34,13 +38,15 @@ const projects = [
         description: "This project is a Command Line Interface (CLI) application for managing a fleet of vehicles. It allows users to create different types of vehicles (Cars, Trucks, and Motorbikes), interact with them, and perform various actions.",
         image: image4, // Imported image
         github: "https://github.com/MsPickles1014/Challenge-6",
+        webpage: "",
     },
     {
         id: 5,
         title: "Weather Tracker",
-        description: "Weather Tracker is a dynamic web application that provides real-time weather information for user-specified locations. Using the OpenWeather API, the app displays current conditions, a 5-day forecast, and key metrics like temperature, humidity, and wind speed. Built with JavaScript, HTML, and CSS, the project showcases skills in API integration, responsive design, and user interaction. Its intuitive interface makes it a valuable tool for planning and staying informed about weather conditions.",
+        description: "Weather Tracker is a dynamic web application that provides real-time weather information for user-specified locations. Using the OpenWeather API, the app displays current conditions, a 5-day forecast, and key metrics like temperature, humidity, and wind speed.",
         image: image5, // Imported image
         github: "https://github.com/MsPickles1014/Weather-Dashboard",
+        webpage: "",
     },
     {
         id: 6,
@@ -48,6 +54,7 @@ const projects = [
         description: "Horiseon is an Search Engine Optimization (SEO) platform specifically designed to boost business’s online visibility and organic search rankings through a variety of optimization strategies. The website provides a full range of services including keyword research, on-page optimization and technical audits.",
         image: image6, // Imported image
         github: "https://github.com/MsPickles1014/Horiseon-module1-challange",
+        webpage: "",
     },
     {
         id: 7,
@@ -55,6 +62,7 @@ const projects = [
         description: "GlimmerApp is a full-stack web application that allows users to discover historical events that happened on a specific month and day using data from Wikipedia's On This Day API.",
         image: image7, // Imported image
         github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
+        webpage: "",
     },
     {
         id: 8,
@@ -62,13 +70,17 @@ const projects = [
         description: "A fully functional CLASSIC Wordle clone built with React Vite and Tailwind CSS, featuring a modern UI with gradient and glassmorphism, deployed on AWS Amplify, and tested via GitHub Actions.",
         image: image8, // Imported image
         github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
+        webpage: "",
+        
     },
     {
         id: 9,
-        title: "Glimmer In Time",
-        description: "GlimmerApp is a full-stack web application that allows users to discover historical events that happened on a specific month and day using data from Wikipedia's On This Day API.",
+        title: "Grid Venture",
+        description: "GridVenture is a retro-inspired, grid-based exploration puzzle game where players navigate a grid, solve puzzles, and uncover secrets.  blend of strategy and adventure, with engaging graphics and sound effects.",
         image: image9, // Imported image
-        github: "
+        github: "https://github.com/MsPickles1014/Grid-Venture",
+        webpage: "https://main.d1mhan6qm2jheq.amplifyapp.com/",
+    },
 ];
 
 const Portfolio = () => {
@@ -115,6 +127,14 @@ const Portfolio = () => {
                                         >
                                             View on GitHub
                                         </a>
+                                        <a
+                                        href={project.webpage}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 transition rounded-full text-lg font-medium text-white text-center"
+                                        >
+                                            View Webpage
+                                        </a>
                                     </div>
                                 </div>
                             ))}
@@ -122,8 +142,6 @@ const Portfolio = () => {
                     </div>
                 </section>
     )
-
-
 
 }
 

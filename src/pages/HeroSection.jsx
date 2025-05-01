@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import portraitImage from '../assets/nDeaneProfilePic.jpg';
+import portraitImage from '../assets/NoelaImage.jpg'; // Adjust the path as necessary
 
 
 function HeroSection() {
@@ -27,7 +27,7 @@ function HeroSection() {
             My Portfolio
           </Link>
           <Link
-            to="mailto:your-noela.deane@cune.org"
+            to="mailto:noela.deane@cune.org"
             className="px-6 py-3 border border-gray-300 hover:bg-gray-800 transition rounded-full text-lg font-medium"
           >
             Contact Me
