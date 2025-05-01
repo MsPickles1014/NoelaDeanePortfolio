@@ -56,6 +56,19 @@ const projects = [
         image: image7, // Imported image
         github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
     },
+    {
+        id: 8,
+        title: "Wordle Game",
+        description: "A fully functional CLASSIC Wordle clone built with React Vite and Tailwind CSS, featuring a modern UI with gradient and glassmorphism, deployed on AWS Amplify, and tested via GitHub Actions.",
+        image: image8, // Imported image
+        github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
+    },
+    {
+        id: 9,
+        title: "Glimmer In Time",
+        description: "GlimmerApp is a full-stack web application that allows users to discover historical events that happened on a specific month and day using data from Wikipedia's On This Day API.",
+        image: image9, // Imported image
+        github: "
 ];
 
 const Portfolio = () => {
