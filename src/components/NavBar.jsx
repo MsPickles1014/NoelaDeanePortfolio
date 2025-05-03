@@ -13,35 +13,40 @@ const NavBar = () => {
   ];
 
   return (
-    <nav 
-      className="            bg-cover bg-center p-4 text-black py-6 shadow-lg"
+    <nav
+      className="relative z-50 bg-cover bg-center text-black shadow-lg"
       style={{ backgroundImage: `url('/yellowFlowerField.jpg')` }}
     >
-      <div className="container mx-auto flex justify-between items-center">
+      {/* Optional overlay for readability */}
+      <div className="absolute inset-0 bg-white/60"></div>
+
+      <div className="relative z-10 container mx-auto flex justify-between items-center px-4 py-4">
         {/* Logo / Brand */}
-        <h1 className="text-6xl md:text-6xl font-bold">Noela Deane </h1>
+        <h1 className="text-3xl sm:text-4xl font-bold">Noela Deane</h1>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex space-x-6">
-          {navLinks.map((link) => (
-            <li key={link.name}>
-              {link.external ? (
-                <a 
-                  href={link.path} 
+        <ul className="hidden md:flex space-x-6 text-lg font-medium">
+          {navLinks.map((link) =>
+            link.external ? (
+              <li key={link.name}>
+                <a
+                  href={link.path}
                   className="hover:text-gray-700 transition duration-300"
                 >
                   {link.name}
                 </a>
-              ) : (
-                <Link 
-                  to={link.path} 
+              </li>
+            ) : (
+              <li key={link.name}>
+                <Link
+                  to={link.path}
                   className="hover:text-gray-700 transition duration-300"
                 >
                   {link.name}
                 </Link>
-              )}
-            </li>
-          ))}
+              </li>
+            )
+          )}
         </ul>
 
         {/* Mobile Menu Button */}
@@ -49,36 +54,41 @@ const NavBar = () => {
           className="md:hidden text-black focus:outline-none text-3xl"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle navigation"
+          aria-expanded={isOpen}
         >
           ☰
         </button>
       </div>
 
-      {/* Mobile Navigation Menu (with animations) */}
-      <div className={`absolute top-16 left-0 w-full bg-white transition-transform duration-300 shadow-lg md:hidden ${
-        isOpen ? "translate-y-0" : "-translate-y-full"
-      }`}>
-        <ul className="p-4 space-y-4 text-lg">
-          {navLinks.map((link) => (
-            <li key={link.name}>
-              {link.external ? (
-                <a 
-                  href={link.path} 
-                  className="block text-gray-800 hover:text-gray-500 transition duration-300"
+      {/* Mobile Navigation Menu */}
+      <div
+        className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
+          isOpen ? "max-h-96" : "max-h-0"
+        }`}
+      >
+        <ul className="bg-white px-4 py-4 space-y-3 text-lg">
+          {navLinks.map((link) =>
+            link.external ? (
+              <li key={link.name}>
+                <a
+                  href={link.path}
+                  className="block text-gray-800 hover:text-blue-600 transition duration-200"
                 >
                   {link.name}
                 </a>
-              ) : (
-                <Link 
-                  to={link.path} 
-                  className="block text-gray-800 hover:text-gray-500 transition duration-300"
+              </li>
+            ) : (
+              <li key={link.name}>
+                <Link
+                  to={link.path}
                   onClick={() => setIsOpen(false)}
+                  className="block text-gray-800 hover:text-blue-600 transition duration-200"
                 >
                   {link.name}
                 </Link>
-              )}
-            </li>
-          ))}
+              </li>
+            )
+          )}
         </ul>
       </div>
     </nav>

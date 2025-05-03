@@ -13,8 +13,8 @@ const projects = [
         title: "Alphabet Learning App",
         description: "The Alphabet Learning App is an interactive, educational tool designed to help users learn the alphabet. Users are able to input letters, dynamically generates flashcards with images and text.",
         image: image1, 
-        github: "https://mspickles1014.github.io/CoolCademy/",
-        webpage: "",
+        github: "https://github.com/MsPickles1014/CoolCademy",
+        webpage: "https://mspickles1014.github.io/CoolCademy/",
     },    
     {
         id: 2,

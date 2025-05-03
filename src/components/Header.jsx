@@ -1,10 +1,11 @@
 import NavBar from "./NavBar";
-function Header () {
-    return(
-        <div>
-           <NavBar/>
-        </div>
-    )
+
+function Header() {
+  return (
+    <header>
+      <NavBar />
+    </header>
+  );
 }
 
 export default Header;
