@@ -18,7 +18,8 @@ const NavBar = () => {
       style={{ backgroundImage: `url('/yellowFlowerField.jpg')` }}
     >
       {/* Optional overlay for readability */}
-      <div className="absolute inset-0 bg-white/60"></div>
+      <div className="absolute inset-0 bg-white/60 z-0"></div>
+
 
       <div className="relative z-10 container mx-auto flex justify-between items-center px-4 py-4">
         {/* Logo / Brand */}
