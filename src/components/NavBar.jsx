@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";   
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,12 +17,10 @@ const NavBar = () => {
       className="relative z-50 bg-cover bg-center text-black shadow-lg"
       style={{ backgroundImage: `url('/yellowFlowerField.jpg')` }}
     >
-      {/* Optional overlay for readability */}
-      <div className="absolute inset-0 bg-white/60 z-0"></div>
-
+      {/* Overlay for background image readability */}
+      <div className="absolute inset-0 bg-white/60 z-0 pointer-events-none"></div>
 
       <div className="relative z-10 container mx-auto flex justify-between items-center px-4 py-4">
-        {/* Logo / Brand */}
         <h1 className="text-3xl sm:text-4xl font-bold">Noela Deane</h1>
 
         {/* Desktop Navigation */}
@@ -50,7 +48,7 @@ const NavBar = () => {
           )}
         </ul>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Toggle Button */}
         <button
           className="md:hidden text-black focus:outline-none text-3xl"
           onClick={() => setIsOpen(!isOpen)}
@@ -63,7 +61,7 @@ const NavBar = () => {
 
       {/* Mobile Navigation Menu */}
       <div
-        className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
+        className={`relative z-10 md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
           isOpen ? "max-h-96" : "max-h-0"
         }`}
       >
