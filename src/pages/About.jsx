@@ -18,7 +18,7 @@ const About = () => {
               <ul className="list-disc pl-6 mt-2 text-gray-300 text-sm sm:text-base">
                 <li>Front-end and full-stack web development</li>
                 <li>CSS, HTML, JavaScript, Web APIs...</li>
-                <li>Creating efficient, user-friendly applications</li>
+                <li>Creating user-friendly, efficient applications</li>
               </ul>
             </div>
       
