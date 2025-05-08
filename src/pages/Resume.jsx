@@ -1,4 +1,4 @@
-import resumePDF from '../assets/NoelaDeaneITResume.pdf';
+import resumePDF from '../assets/NoelaDeaneITResume1.pdf';
 
 const Resume = () => {
   return (
