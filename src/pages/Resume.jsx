@@ -1,5 +1,5 @@
 
-import resumePDF from '../public/NoelaDeaneITResume.pdf'
+
 
 const Resume = () => {
   return (
@@ -10,7 +10,8 @@ const Resume = () => {
       </p>
 
       <a
-        href={resumePDF}
+        href="/NoelaDeaneITResume.pdf"
+        download="NoelaDeaneITResume.pdf" 
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 sm:py-3 sm:px-6 rounded-full transition transform hover:scale-105 mb-6"
@@ -20,7 +21,7 @@ const Resume = () => {
 
       <div className="w-full max-w-4xl h-[400px] sm:h-[600px] md:h-[800px]">
         <iframe
-          src={resumePDF}
+          src="/NoelaDeaneITResume.pdf"
           title="Noela Deane's Resume"
           className="w-full h-full border-2 border-gray-300 rounded-lg shadow-lg"
         ></iframe>
