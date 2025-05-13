@@ -1,12 +1,12 @@
 import image1 from '../assets/CoolCademyImage.jpg'
-import image2 from '../assets/employeeTrackerDB-SQL.png';
-import image3 from '../assets/ReadMeImage.png';
-import image4 from '../assets/vehicleBuilderImage.webp';
+import image7 from '../assets/employeeTrackerDB-SQL.png';
+import image8 from '../assets/ReadMeImage.png';
+import image9 from '../assets/vehicleBuilderImage.webp';
 import image5 from '../assets/Weather-Forecast-API-Image.jpeg';
 import image6 from '../assets/digital-marketing-meeting.jpg';
-import image7 from '../assets/GlimmerPic.png';
-import image8 from '../assets/WordleImage.png';
-import image9 from '../assets/GridVentureImage.png';
+import image2 from '../assets/GlimmerPic.png';
+import image3 from '../assets/WordleImage.png';
+import image4 from '../assets/GridVentureImage.png';
 const projects = [
     {
         id: 1,
@@ -15,30 +15,31 @@ const projects = [
         image: image1, 
         github: "https://github.com/MsPickles1014/CoolCademy",
         webpage: "https://mspickles1014.github.io/CoolCademy/",
-    },    
+    },   
     {
         id: 2,
-        title: "Employee Tracker",
-        description: "Employee Tracker is a command-line application built to streamline the management of a company's employee database. It enables users to efficiently add, view, update, and organize employee records, roles, and departments.",
+        title: "Glimmer In Time",
+        description: "GlimmerApp is a full-stack web application that allows users to discover historical events that happened on a specific month and day using data from Wikipedia's On This Day API.",
         image: image2, // Imported image
-        github: "https://github.com/MsPickles1014/Challenge-10",
+        github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
         webpage: "",
-    },
+    }, 
     {
         id: 3,
-        title: "Professional README Generator",
-        description: "The README Generator is a powerful Command Line Interface (CLI) tool.designed to streamline the creation of professional and structured README.md files for projects. By providing simple prompts, developers can create a polished README.",
+        title: "Wordle Game",
+        description: "A fully functional CLASSIC Wordle clone built with React Vite and Tailwind CSS, featuring a modern UI with gradient and glassmorphism, deployed on AWS Amplify, and tested via GitHub Actions.",
         image: image3, // Imported image
-        github: "https://github.com/MsPickles1014/challenge-5",
+        github: "",
         webpage: "",
+        
     },
     {
         id: 4,
-        title: "Vehicle Builder",
-        description: "This project is a Command Line Interface (CLI) application for managing a fleet of vehicles. It allows users to create different types of vehicles (Cars, Trucks, and Motorbikes), interact with them, and perform various actions.",
+        title: "Grid Venture",
+        description: "GridVenture is a retro-inspired, grid-based exploration puzzle game where players navigate a grid, solve puzzles, and uncover secrets.  blend of strategy and adventure, with engaging graphics and sound effects.",
         image: image4, // Imported image
-        github: "https://github.com/MsPickles1014/Challenge-6",
-        webpage: "",
+        github: "https://github.com/MsPickles1014/Grid-Venture",
+        webpage: "https://main.d1mhan6qm2jheq.amplifyapp.com/",
     },
     {
         id: 5,
@@ -58,29 +59,29 @@ const projects = [
     },
     {
         id: 7,
-        title: "Glimmer In Time",
-        description: "GlimmerApp is a full-stack web application that allows users to discover historical events that happened on a specific month and day using data from Wikipedia's On This Day API.",
+        title: "Employee Tracker",
+        description: "Employee Tracker is a command-line application built to streamline the management of a company's employee database. It enables users to efficiently add, view, update, and organize employee records, roles, and departments.",
         image: image7, // Imported image
-        github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
+        github: "https://github.com/MsPickles1014/Challenge-10",
         webpage: "",
     },
     {
         id: 8,
-        title: "Wordle Game",
-        description: "A fully functional CLASSIC Wordle clone built with React Vite and Tailwind CSS, featuring a modern UI with gradient and glassmorphism, deployed on AWS Amplify, and tested via GitHub Actions.",
+        title: "Professional README Generator",
+        description: "The README Generator is a powerful Command Line Interface (CLI) tool.designed to streamline the creation of professional and structured README.md files for projects. By providing simple prompts, developers can create a polished README.",
         image: image8, // Imported image
-        github: "https://github.com/MsPickles1014/challange-14-GlimmerApp",
-        webpage: "",
-        
+        github: "https://github.com/MsPickles1014/challenge-5",
+        // webpage: "",
     },
     {
         id: 9,
-        title: "Grid Venture",
-        description: "GridVenture is a retro-inspired, grid-based exploration puzzle game where players navigate a grid, solve puzzles, and uncover secrets.  blend of strategy and adventure, with engaging graphics and sound effects.",
+        title: "Vehicle Builder",
+        description: "This project is a Command Line Interface (CLI) application for managing a fleet of vehicles. It allows users to create different types of vehicles (Cars, Trucks, and Motorbikes), interact with them, and perform various actions.",
         image: image9, // Imported image
-        github: "https://github.com/MsPickles1014/Grid-Venture",
-        webpage: "https://main.d1mhan6qm2jheq.amplifyapp.com/",
+        github: "https://github.com/MsPickles1014/Challenge-6",
+        // webpage: "",
     },
+   
 ];
 
 const Portfolio = () => {
