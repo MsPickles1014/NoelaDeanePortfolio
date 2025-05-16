@@ -1,12 +1,12 @@
 import image1 from '../assets/CoolCademyImage.jpg'
-import image7 from '../assets/employeeTrackerDB-SQL.png';
-import image8 from '../assets/ReadMeImage.png';
-import image9 from '../assets/vehicleBuilderImage.webp';
-import image5 from '../assets/Weather-Forecast-API-Image.jpeg';
-import image6 from '../assets/digital-marketing-meeting.jpg';
 import image2 from '../assets/GlimmerPic.png';
 import image3 from '../assets/WordleImage.png';
 import image4 from '../assets/GridVentureImage.png';
+import image5 from '../assets/Weather-Forecast-API-Image.jpeg';
+import image6 from '../assets/digital-marketing-meeting.jpg';
+import image7 from '../assets/employeeTrackerDB-SQL.png';
+import image8 from '../assets/ReadMeImage.png';
+import image9 from '../assets/vehicleBuilderImage.webp';
 const projects = [
     {
         id: 1,
@@ -47,7 +47,6 @@ const projects = [
         description: "Weather Tracker is a dynamic web application that provides real-time weather information for user-specified locations. Using the OpenWeather API, the app displays current conditions, a 5-day forecast, and key metrics like temperature, humidity, and wind speed.",
         image: image5, // Imported image
         github: "https://github.com/MsPickles1014/Weather-Dashboard",
-        webpage: "",
     },
     {
         id: 6,
@@ -63,7 +62,6 @@ const projects = [
         description: "Employee Tracker is a command-line application built to streamline the management of a company's employee database. It enables users to efficiently add, view, update, and organize employee records, roles, and departments.",
         image: image7, // Imported image
         github: "https://github.com/MsPickles1014/Challenge-10",
-        webpage: "",
     },
     {
         id: 8,
